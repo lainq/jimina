@@ -3,19 +3,19 @@
 version = 3
 
 [[package]]
-name = "daysince"
-version = "0.1.0"
-dependencies = [
- "home",
-]
-
-[[package]]
 name = "home"
 version = "0.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5444c27eef6923071f7ebcc33e3444508466a76f7a2b93da00ed6e19f30c1ddb"
 dependencies = [
  "windows-sys",
+]
+
+[[package]]
+name = "jimina"
+version = "0.1.0"
+dependencies = [
+ "home",
 ]
 
 [[package]]
